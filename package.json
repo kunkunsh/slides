@@ -1,0 +1,26 @@
+{
+  "name": "slidev-monorepo",
+  "private": true,
+  "scripts": {
+    "build": "bun build.ts",
+    "preview": "bunx serve dist",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.2.5",
+    "turbo": "^2.3.3",
+    "typescript": "5.5.4",
+    "vitepress": "^1.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "bun@1.1.42",
+  "workspaces": [
+    "slides/*",
+    "docs"
+  ]
+}

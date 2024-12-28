@@ -1,0 +1,16 @@
+{
+  "name": "tutorial1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build --base /slidev-monorepo/slides/tutorial1/ --out ../../dist/slides/tutorial1",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.51.0-beta.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.13"
+  }
+}
