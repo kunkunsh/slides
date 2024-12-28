@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /slidev-monorepo/slides/tutorial2/ --out ../../dist/slides/tutorial2",
+    "build": "slidev build --base /slides/tutorial2/ --out ../../dist/slides/tutorial2",
     "dev": "slidev --open",
     "export": "slidev export"
   },
